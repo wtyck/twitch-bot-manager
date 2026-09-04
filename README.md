@@ -1,6 +1,5 @@
 <p align="center">
-  <!-- PROJECT LOGO PLACEHOLDER: replace assets/logo-placeholder.svg with the final logo. -->
-  <img src="assets/logo-placeholder.svg" width="680" alt="Twitch Bot Manager project logo placeholder">
+  <img src="assets/hero.png" width="100%" alt="Twitch Bot Manager product overview">
 </p>
 
 <h1 align="center">Twitch Bot Manager</h1>
@@ -15,12 +14,6 @@
 <p align="center"><strong>Manage bot profiles, channels, runtime state, and shared settings from one API.</strong></p>
 
 > **Open-source portfolio edition.** This clean-room implementation recreates the core idea of an earlier personal project. It runs in local demo mode and does not connect to Twitch or require Twitch credentials.
-
-## 🎬 Demo
-
-<!-- DEMO PLACEHOLDER: add docs/demo.gif or a high-quality dashboard screenshot here. -->
-
-Start the service and open **http://127.0.0.1:8000/docs** for the interactive Swagger demo.
 
 ## ✨ Features
 
@@ -129,16 +122,6 @@ pytest -q
 | `auto_reconnect` | boolean | Whether an adapter should reconnect after interruption. | `true` |
 | `response_delay_ms` | integer | Delay budget for command responses. | `250` |
 | `respond_to_whispers` | boolean | Whether private messages are eligible for responses. | `false` |
-
-## 🗺️ Roadmap
-
-- [x] **Completed:** bot profile and channel CRUD
-- [x] **Completed:** SQLite persistence and demo lifecycle controls
-- [x] **Completed:** manager configuration API, validation, tests, and CI
-- [ ] **In progress:** lightweight web dashboard
-- [ ] **Future:** optional Twitch OAuth and EventSub adapter
-- [ ] **Future:** encrypted credential storage and role-based access
-- [ ] **Future:** distributed workers and runtime observability
 
 ## 🤝 Contributing
 
